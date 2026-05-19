@@ -1,0 +1,4 @@
+Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial': /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/serial -- -j16 -l16
+Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial' returned '0': /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/serial -- -j16 -l16
+Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial': /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/serial
+Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial' returned '0': /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/serial

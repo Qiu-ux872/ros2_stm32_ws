@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_stm32_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_stm32_ws/src/install/sllidar_ros2
+Invoked command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_stm32_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_stm32_ws/src/install/sllidar_ros2
+Invoking command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_stm32_ws/src/build/sllidar_ros2 -- -j4 -l4
+Invoked command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_stm32_ws/src/build/sllidar_ros2 -- -j4 -l4
+Invoking command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_stm32_ws/src/build/sllidar_ros2
+Invoked command in '/home/ros/ros2_stm32_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_stm32_ws/src/build/sllidar_ros2

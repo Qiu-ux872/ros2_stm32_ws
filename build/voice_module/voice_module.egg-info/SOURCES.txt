@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/voice_module/voice_module.egg-info/PKG-INFO
+../../build/voice_module/voice_module.egg-info/SOURCES.txt
+../../build/voice_module/voice_module.egg-info/dependency_links.txt
+../../build/voice_module/voice_module.egg-info/entry_points.txt
+../../build/voice_module/voice_module.egg-info/requires.txt
+../../build/voice_module/voice_module.egg-info/top_level.txt
+../../build/voice_module/voice_module.egg-info/zip-safe
+resource/voice_module
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+voice_module/__init__.py
+voice_module/voice_module_node.py

@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.001242] (-) JobUnselected: {'identifier': 'imu_tf_broadcaster'}
+[0.001396] (-) JobUnselected: {'identifier': 'serial'}
+[0.001471] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001535] (-) JobUnselected: {'identifier': 'stm32_nav_bringup'}
+[0.001596] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.001657] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.001722] (stm32_nav_comm) JobQueued: {'identifier': 'stm32_nav_comm', 'dependencies': OrderedDict([('serial', '/home/ros/ros2_stm32_ws/src/install/serial')])}
+[0.001794] (stm32_nav_comm) JobStarted: {'identifier': 'stm32_nav_comm'}
+[0.051081] (stm32_nav_comm) JobEnded: {'identifier': 'stm32_nav_comm', 'rc': 1}
+[0.062172] (-) EventReactorShutdown: {}

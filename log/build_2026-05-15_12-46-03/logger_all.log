@@ -1,0 +1,551 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ceae9527eb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ceae9527070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ceae9527070>>)
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qiu/Desktop/ros2_stm32_ws'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tf_broadcaster) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tf_broadcaster' with type 'ros.ament_python' and name 'imu_tf_broadcaster'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_bringup) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stm32_nav_bringup' with type 'ros.ament_cmake' and name 'stm32_nav_bringup'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_nav_comm) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stm32_nav_comm' with type 'ros.ament_cmake' and name 'stm32_nav_comm'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_interface) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yesense_ros2/yesense_interface' with type 'ros.ament_cmake' and name 'yesense_interface'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/yesense_ros2/yesense_std_ros2) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yesense_ros2/yesense_std_ros2' with type 'ros.ament_cmake' and name 'yesense_std_ros2'
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'imu_tf_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tf_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/imu_tf_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/serial', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/serial_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'yesense_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_interface', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'stm32_nav_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_comm', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'yesense_std_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_std_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'stm32_nav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'stm32_nav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup', 'merge_install': False, 'path': '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.198s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/serial_ros2' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/serial_ros2'
+[0.200s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_interface' with build type 'ament_cmake'
+[0.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_interface'
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/sllidar_ros2'
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/imu_tf_broadcaster' with build type 'ament_python'
+[0.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tf_broadcaster', 'ament_prefix_path')
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/ament_prefix_path.ps1'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/ament_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/ament_prefix_path.sh'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/serial
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_interface -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2
+[0.347s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qiu/Desktop/ros2_stm32_ws/src/imu_tf_broadcaster'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/src/imu_tf_broadcaster': PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_tf_broadcaster build --build-base /home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/build install --record /home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/install.log --single-version-externally-managed install_data
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/serial
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/serial -- -j16 -l16
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/src/imu_tf_broadcaster' returned '0': PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_tf_broadcaster build --build-base /home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/build install --record /home/qiu/Desktop/ros2_stm32_ws/build/imu_tf_broadcaster/install.log --single-version-externally-managed install_data
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster' for CMake module files
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/lib'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/lib/pkgconfig/imu_tf_broadcaster.pc'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/lib/python3.10/site-packages'
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tf_broadcaster', 'pythonpath')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/pythonpath.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/pythonpath.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/hook/pythonpath.sh'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/bin'
+[0.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tf_broadcaster)
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/package.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/package.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/package.sh'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/package.bash'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/imu_tf_broadcaster/package.zsh'
+[0.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/imu_tf_broadcaster/share/colcon-core/packages/imu_tf_broadcaster)
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2 -- -j16 -l16
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/serial -- -j16 -l16
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/serial
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial' for CMake module files
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial' for CMake config files
+[1.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/bin'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/bin'
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/serial
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.dsv'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.zsh'
+[1.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/colcon-core/packages/serial)
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial' for CMake module files
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib/python3.10/site-packages'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/serial/bin'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.sh'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.bash'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/serial/package.zsh'
+[1.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/serial/share/colcon-core/packages/serial)
+[1.069s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_comm' with build type 'ament_cmake'
+[1.069s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_comm'
+[1.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_comm -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_interface -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface -- -j16 -l16
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_comm -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm -- -j16 -l16
+[7.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface -- -j16 -l16
+[7.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface
+[7.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_interface)
+[7.319s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface' for CMake module files
+[7.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/yesense_interface
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface' for CMake config files
+[7.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'cmake_prefix_path')
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.ps1'
+[7.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.dsv'
+[7.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.sh'
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib'
+[7.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'ld_library_path_lib')
+[7.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.ps1'
+[7.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.dsv'
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.sh'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/bin'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib/pkgconfig/yesense_interface.pc'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib/python3.10/site-packages'
+[7.322s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/bin'
+[7.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.ps1'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.dsv'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.sh'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.bash'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.zsh'
+[7.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/colcon-core/packages/yesense_interface)
+[7.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_interface)
+[7.324s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface' for CMake module files
+[7.324s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface' for CMake config files
+[7.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'cmake_prefix_path')
+[7.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.ps1'
+[7.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.dsv'
+[7.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.sh'
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib'
+[7.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'ld_library_path_lib')
+[7.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.ps1'
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.dsv'
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.sh'
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/bin'
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib/pkgconfig/yesense_interface.pc'
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib/python3.10/site-packages'
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/bin'
+[7.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.ps1'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.dsv'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.sh'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.bash'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/yesense_interface/package.zsh'
+[7.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/share/colcon-core/packages/yesense_interface)
+[7.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_std_ros2' with build type 'ament_cmake'
+[7.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_std_ros2'
+[7.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2
+[8.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2 -- -j16 -l16
+[8.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2
+[8.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[8.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2
+[8.176s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2' for CMake module files
+[8.176s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2' for CMake config files
+[8.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[8.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[8.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[8.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib'
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/bin'
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[8.178s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/bin'
+[8.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[8.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[8.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[8.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[8.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[8.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[8.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[8.179s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2' for CMake module files
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2' for CMake config files
+[8.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/bin'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/bin'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[8.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[8.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[8.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[8.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[8.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[8.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2
+[8.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2 -- -j16 -l16
+[10.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm -- -j16 -l16
+[10.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm
+[10.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_nav_comm)
+[10.110s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm' for CMake module files
+[10.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_comm
+[10.111s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm' for CMake config files
+[10.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_nav_comm', 'cmake_prefix_path')
+[10.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.ps1'
+[10.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.dsv'
+[10.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.sh'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/bin'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib/pkgconfig/stm32_nav_comm.pc'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib/python3.10/site-packages'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/bin'
+[10.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.ps1'
+[10.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.dsv'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.sh'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.bash'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.zsh'
+[10.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/colcon-core/packages/stm32_nav_comm)
+[10.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_nav_comm)
+[10.114s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm' for CMake module files
+[10.114s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm' for CMake config files
+[10.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_nav_comm', 'cmake_prefix_path')
+[10.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.ps1'
+[10.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.dsv'
+[10.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/hook/cmake_prefix_path.sh'
+[10.115s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib'
+[10.115s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/bin'
+[10.115s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib/pkgconfig/stm32_nav_comm.pc'
+[10.115s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/lib/python3.10/site-packages'
+[10.115s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/bin'
+[10.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.ps1'
+[10.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.dsv'
+[10.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.sh'
+[10.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.bash'
+[10.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/stm32_nav_comm/package.zsh'
+[10.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm/share/colcon-core/packages/stm32_nav_comm)
+[18.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2 -- -j16 -l16
+[18.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2
+[18.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_std_ros2)
+[18.764s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2' for CMake module files
+[18.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/yesense_std_ros2
+[18.765s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2' for CMake config files
+[18.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_std_ros2', 'cmake_prefix_path')
+[18.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.ps1'
+[18.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.dsv'
+[18.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.sh'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/bin'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib/pkgconfig/yesense_std_ros2.pc'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib/python3.10/site-packages'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/bin'
+[18.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.ps1'
+[18.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv'
+[18.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.sh'
+[18.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.bash'
+[18.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.zsh'
+[18.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/colcon-core/packages/yesense_std_ros2)
+[18.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_std_ros2)
+[18.768s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2' for CMake module files
+[18.768s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2' for CMake config files
+[18.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_std_ros2', 'cmake_prefix_path')
+[18.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.ps1'
+[18.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.dsv'
+[18.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.sh'
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib'
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/bin'
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib/pkgconfig/yesense_std_ros2.pc'
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/lib/python3.10/site-packages'
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/bin'
+[18.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.ps1'
+[18.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv'
+[18.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.sh'
+[18.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.bash'
+[18.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/yesense_std_ros2/package.zsh'
+[18.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2/share/colcon-core/packages/yesense_std_ros2)
+[18.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_bringup' with build type 'ament_cmake'
+[18.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_bringup'
+[18.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_bringup -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup
+[19.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/qiu/Desktop/ros2_stm32_ws/src/stm32_nav_bringup -DCMAKE_INSTALL_PREFIX=/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup
+[19.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup -- -j16 -l16
+[19.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup -- -j16 -l16
+[19.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup
+[19.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_nav_bringup)
+[19.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup' returned '0': AMENT_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_std_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_comm:/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface:/home/qiu/Desktop/ros2_stm32_ws/install/sllidar_ros2:/home/qiu/Desktop/ros2_stm32_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/lib:/home/qiu/Desktop/ros2_stm32_ws/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qiu/Desktop/ros2_stm32_ws/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup
+[19.256s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup' for CMake module files
+[19.256s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup' for CMake config files
+[19.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_nav_bringup', 'cmake_prefix_path')
+[19.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.ps1'
+[19.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.dsv'
+[19.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.sh'
+[19.257s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/bin'
+[19.257s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/lib/pkgconfig/stm32_nav_bringup.pc'
+[19.257s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/lib/python3.10/site-packages'
+[19.257s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/bin'
+[19.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.ps1'
+[19.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.dsv'
+[19.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.sh'
+[19.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.bash'
+[19.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.zsh'
+[19.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/colcon-core/packages/stm32_nav_bringup)
+[19.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_nav_bringup)
+[19.259s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup' for CMake module files
+[19.259s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup' for CMake config files
+[19.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_nav_bringup', 'cmake_prefix_path')
+[19.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.ps1'
+[19.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.dsv'
+[19.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/hook/cmake_prefix_path.sh'
+[19.260s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/bin'
+[19.260s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/lib/pkgconfig/stm32_nav_bringup.pc'
+[19.260s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/lib/python3.10/site-packages'
+[19.260s] Level 1:colcon.colcon_core.environment:checking '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/bin'
+[19.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.ps1'
+[19.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.dsv'
+[19.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.sh'
+[19.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.bash'
+[19.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/stm32_nav_bringup/package.zsh'
+[19.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qiu/Desktop/ros2_stm32_ws/install/stm32_nav_bringup/share/colcon-core/packages/stm32_nav_bringup)
+[19.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.262s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.265s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qiu/Desktop/ros2_stm32_ws/install/local_setup.ps1'
+[19.274s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qiu/Desktop/ros2_stm32_ws/install/_local_setup_util_ps1.py'
+[19.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qiu/Desktop/ros2_stm32_ws/install/setup.ps1'
+[19.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qiu/Desktop/ros2_stm32_ws/install/local_setup.sh'
+[19.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qiu/Desktop/ros2_stm32_ws/install/_local_setup_util_sh.py'
+[19.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qiu/Desktop/ros2_stm32_ws/install/setup.sh'
+[19.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qiu/Desktop/ros2_stm32_ws/install/local_setup.bash'
+[19.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qiu/Desktop/ros2_stm32_ws/install/setup.bash'
+[19.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qiu/Desktop/ros2_stm32_ws/install/local_setup.zsh'
+[19.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qiu/Desktop/ros2_stm32_ws/install/setup.zsh'
