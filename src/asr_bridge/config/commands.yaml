@@ -1,0 +1,52 @@
+# ASR-PRO 语音命令映射表
+# 天问Block 上编程时，每个命令词的 ASR_CODE 里通过 UART1 发送对应的 key 字符串。
+# 格式: "KEY\n" (newline 结尾)
+# 例: Serial.println("NAV:1");
+
+NAV:0:
+  type: navigate
+  point_id: 0
+  description: "返回起点"
+
+NAV:1:
+  type: navigate
+  point_id: 1
+  description: "去一号工作点"
+
+NAV:2:
+  type: navigate
+  point_id: 2
+  description: "去二号工作点"
+
+NAV:3:
+  type: navigate
+  point_id: 3
+  description: "去三号工作点"
+
+NAV:4:
+  type: navigate
+  point_id: 4
+  description: "去四号点"
+
+NAV:5:
+  type: navigate
+  point_id: 5
+  description: "去五号点"
+
+STOP:
+  type: stop
+  description: "停止/停车"
+
+MODE:ROS:
+  type: mode
+  value: 1
+  description: "切换ROS2控制模式"
+
+MODE:MANUAL:
+  type: mode
+  value: 0
+  description: "切换手动模式"
+
+WAKE:
+  type: wake
+  description: "唤醒词（仅日志）"

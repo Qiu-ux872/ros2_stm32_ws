@@ -1,0 +1,229 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+<block type="setup" id="FKV7_8z@V_ksICJFb@?t" x="20" y="20">
+<statement name="DO">
+<block type="asr_speak" id="Op{}0vd?zhltxvm62iDS">
+<field name="VOICE_SET">程程-标准男童</field>
+<field name="vol">2</field>
+<field name="speed">10</field>
+<next>
+<block type="asr_welcom" id="ezTDgH7X%Ag6b-ITPRTq">
+<field name="NAME">欢迎使用导航语音控制，用智能管家唤醒我</field>
+<next>
+<block type="asr_sleep" id="w^ok_VK3iwKXh?T0Qz$F">
+<field name="NAME">我先退下了，用智能管家唤醒我哦</field>
+<next>
+<block type="asr_id" id="hZzAcmvTj6X+*D_(-sc^">
+<field name="ASR">智能管家</field>
+<field name="leibie">唤醒词</field>
+<field name="huifu">我在，请说指令</field>
+<field name="id">0</field>
+<next>
+<block type="asr_id" id="OGT|.]J|Qp)W+!2T0C#e">
+<field name="ASR">去一号</field>
+<field name="leibie">命令词</field>
+<field name="huifu">好的，前往一号点</field>
+<field name="id">1</field>
+<next>
+<block type="asr_id" id=".Xz+^P^+$HxO0sZfyU-@">
+<field name="ASR">去二号</field>
+<field name="leibie">命令词</field>
+<field name="huifu">好的，前往二号点</field>
+<field name="id">2</field>
+<next>
+<block type="asr_id" id="7g;xsuW9j[t0o+}=K7p{">
+<field name="ASR">去三号</field>
+<field name="leibie">命令词</field>
+<field name="huifu">好的，前往三号点</field>
+<field name="id">3</field>
+<next>
+<block type="asr_id" id="u5VEMQ$j3z5%Hrx.6H#k">
+<field name="ASR">返回</field>
+<field name="leibie">命令词</field>
+<field name="huifu">好的，返回起点</field>
+<field name="id">4</field>
+<next>
+<block type="asr_id" id="2ZIXZ*@a!j$N6M6^@9I6">
+<field name="ASR">回家</field>
+<field name="leibie">命令词</field>
+<field name="huifu">好的，返回起点</field>
+<field name="id">5</field>
+<next>
+<block type="asr_id" id="ZQ[6u#8]3h@;DH2Zheo|">
+<field name="ASR">停止</field>
+<field name="leibie">命令词</field>
+<field name="huifu">已停止</field>
+<field name="id">6</field>
+<next>
+<block type="asr_id" id="?8j%(%hlT#2?n{5wG}r*">
+<field name="ASR">停车</field>
+<field name="leibie">命令词</field>
+<field name="huifu">已停车</field>
+<field name="id">7</field>
+<next>
+<block type="asr_id" id="/g+oN*8lrO$}%X1cW*%U">
+<field name="ASR">自动模式</field>
+<field name="leibie">命令词</field>
+<field name="huifu">已切换自动模式</field>
+<field name="id">8</field>
+<next>
+<block type="asr_id" id="5t0^uTf#z]M9;3QOENbc">
+<field name="ASR">手动模式</field>
+<field name="leibie">命令词</field>
+<field name="huifu">已切换手动模式</field>
+<field name="id">9</field>
+<next>
+<block type="asr_init_serial" id="Dj$5pQp)hOM4s{$M:eA%">
+<field name="PORT">1</field>
+<field name="BAUD">9600</field>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+
+<block type="procedures_defnoreturn" id="qM8_E,tS^rJ^%mE0cyS=" x="597" y="-214">
+<field name="NAME">ASR_CODE</field>
+<statement name="STACK">
+<block type="controls_switch_case" id="f9jG7^zpH=FMj|dv@=Tb">
+<mutation elseif="9"></mutation>
+<value name="IF0">
+<block type="asr_snid" id="$0x(33*eY|XH7q-v^0cS"></block>
+</value>
+
+<value name="IF1">
+<block type="math_number" id="tqLhG9B1%*8]v,8Kh!|$">
+<field name="NUM">0</field>
+</block>
+</value>
+<statement name="DO1">
+<block type="asr_code" id="F7so]r2,tj~RoeMM%__q">
+<field name="CODE">Serial.println("WAKE");</field>
+</block>
+</statement>
+
+<value name="IF2">
+<block type="math_number" id=";8p.s;O-J28!$Hy#dQ-s">
+<field name="NUM">1</field>
+</block>
+</value>
+<statement name="DO2">
+<block type="asr_code" id="v|yO-9jP}NcT{3Y1Wp*Y">
+<field name="CODE">Serial.println("NAV:1");</field>
+</block>
+</statement>
+
+<value name="IF3">
+<block type="math_number" id="[nN]R/N=ck[t@e$=~VxI">
+<field name="NUM">2</field>
+</block>
+</value>
+<statement name="DO3">
+<block type="asr_code" id="wc6@dcF@.n#pGN,h#2%5">
+<field name="CODE">Serial.println("NAV:2");</field>
+</block>
+</statement>
+
+<value name="IF4">
+<block type="math_number" id="+a-yQ^_j0gPF$OSt[Qj^">
+<field name="NUM">3</field>
+</block>
+</value>
+<statement name="DO4">
+<block type="asr_code" id="PYtI;BA27+}5OT;@m?da">
+<field name="CODE">Serial.println("NAV:3");</field>
+</block>
+</statement>
+
+<value name="IF5">
+<block type="math_number" id="=W2pYp2[Fzq_8mNTMm#W">
+<field name="NUM">4</field>
+</block>
+</value>
+<statement name="DO5">
+<block type="asr_code" id="D|DI,/B|x7FD^C%c_]zR">
+<field name="CODE">Serial.println("NAV:0");</field>
+</block>
+</statement>
+
+<value name="IF6">
+<block type="math_number" id="}?H@71-1V?*P3R`X4~Lo">
+<field name="NUM">5</field>
+</block>
+</value>
+<statement name="DO6">
+<block type="asr_code" id="_!vvH[4I[e,5W#?$w;o)">
+<field name="CODE">Serial.println("NAV:0");</field>
+</block>
+</statement>
+
+<value name="IF7">
+<block type="math_number" id="t6CUZ!B#?`~I}d#CFC4O">
+<field name="NUM">6</field>
+</block>
+</value>
+<statement name="DO7">
+<block type="asr_code" id="cykNbx[ImrKAUay}(eIF">
+<field name="CODE">Serial.println("STOP");</field>
+</block>
+</statement>
+
+<value name="IF8">
+<block type="math_number" id="FRaTl5fkyPlA,mRfD5^s">
+<field name="NUM">7</field>
+</block>
+</value>
+<statement name="DO8">
+<block type="asr_code" id="$pC6y,J$C8cI|$mQirjS">
+<field name="CODE">Serial.println("STOP");</field>
+</block>
+</statement>
+
+<value name="IF9">
+<block type="math_number" id="40:m?|Qq@z.5]hYHzl]i">
+<field name="NUM">8</field>
+</block>
+</value>
+<statement name="DO9">
+<block type="asr_code" id="L6!/Bm$y$!`6bH+oO_tu">
+<field name="CODE">Serial.println("MODE:ROS");</field>
+</block>
+</statement>
+
+<value name="IF10">
+<block type="math_number" id="j?X*jhM}n0r%r7{$Oh~`">
+<field name="NUM">9</field>
+</block>
+</value>
+<statement name="DO10">
+<block type="asr_code" id="1VtzeD`?P~c0,XATx0y8">
+<field name="CODE">Serial.println("MODE:MANUAL");</field>
+</block>
+</statement>
+
+</block>
+</statement>
+</block>
+<!-- edittype="asr_pro" -->
+</xml>

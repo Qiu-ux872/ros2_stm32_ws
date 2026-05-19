@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+asr_bridge/__init__.py
+asr_bridge/asr_bridge_node.py
+asr_bridge.egg-info/PKG-INFO
+asr_bridge.egg-info/SOURCES.txt
+asr_bridge.egg-info/dependency_links.txt
+asr_bridge.egg-info/entry_points.txt
+asr_bridge.egg-info/requires.txt
+asr_bridge.egg-info/top_level.txt
+asr_bridge.egg-info/zip-safe
+config/commands.yaml
+launch/asr_bridge.launch.py
+resource/asr_bridge

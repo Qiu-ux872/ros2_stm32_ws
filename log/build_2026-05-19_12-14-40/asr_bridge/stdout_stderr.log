@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating asr_bridge.egg-info
+writing asr_bridge.egg-info/PKG-INFO
+writing dependency_links to asr_bridge.egg-info/dependency_links.txt
+writing entry points to asr_bridge.egg-info/entry_points.txt
+writing requirements to asr_bridge.egg-info/requires.txt
+writing top-level names to asr_bridge.egg-info/top_level.txt
+writing manifest file 'asr_bridge.egg-info/SOURCES.txt'
+reading manifest file 'asr_bridge.egg-info/SOURCES.txt'
+writing manifest file 'asr_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/lib/python3.10/site-packages/asr-bridge.egg-link (link to .)
+Installing asr_bridge script to /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/lib/asr_bridge
+
+Installed /home/qiu/Desktop/ros2_stm32_ws/build/asr_bridge
+running symlink_data
+creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/ament_index
+creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/ament_index/resource_index
+creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/qiu/Desktop/ros2_stm32_ws/build/asr_bridge/resource/asr_bridge -> /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/qiu/Desktop/ros2_stm32_ws/build/asr_bridge/package.xml -> /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/asr_bridge
+creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/asr_bridge/config
+symbolically linking /home/qiu/Desktop/ros2_stm32_ws/build/asr_bridge/config/commands.yaml -> /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/asr_bridge/config
+creating /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/asr_bridge/launch
+symbolically linking /home/qiu/Desktop/ros2_stm32_ws/build/asr_bridge/launch/asr_bridge.launch.py -> /home/qiu/Desktop/ros2_stm32_ws/install/asr_bridge/share/asr_bridge/launch

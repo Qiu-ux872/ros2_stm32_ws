@@ -1,0 +1,3 @@
+[console_scripts]
+asr_bridge = asr_bridge.asr_bridge_node:main
+
