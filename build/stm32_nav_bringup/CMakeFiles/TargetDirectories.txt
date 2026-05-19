@@ -1,9 +1,0 @@
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/uninstall.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/stm32_nav_bringup_uninstall.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/test.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/edit_cache.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/rebuild_cache.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/list_install_components.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/install.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/install/local.dir
-/home/qiu/Desktop/ros2_stm32_ws/build/stm32_nav_bringup/CMakeFiles/install/strip.dir

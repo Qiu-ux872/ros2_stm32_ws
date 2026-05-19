@@ -1,3 +1,0 @@
-[console_scripts]
-voice_module = voice_module.voice_module_node:main
-

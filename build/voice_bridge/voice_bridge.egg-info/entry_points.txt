@@ -1,3 +1,0 @@
-[console_scripts]
-voice_bridge = voice_bridge.bridge_node:main
-

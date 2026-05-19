@@ -1,4 +1,0 @@
-source;share/stm32_nav_comm/local_setup.bash
-source;share/stm32_nav_comm/local_setup.dsv
-source;share/stm32_nav_comm/local_setup.sh
-source;share/stm32_nav_comm/local_setup.zsh

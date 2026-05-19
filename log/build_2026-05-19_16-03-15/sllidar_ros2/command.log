@@ -1,4 +1,0 @@
-Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2 -- -j16 -l16
-Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2 -- -j16 -l16
-Invoking command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2
-Invoked command in '/home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qiu/Desktop/ros2_stm32_ws/build/sllidar_ros2
