@@ -20,6 +20,12 @@ from modelscope.utils.constant import Tasks
 from transformers import Qwen2VLForConditionalGeneration
 from transformers import BitsAndBytesConfig
 
+try:
+    from ament_index_python.packages import get_package_share_directory
+    _MODELS_DIR = os.path.join(get_package_share_directory('voice_module'), 'models')
+except Exception:
+    _MODELS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'models')
+
 import torch
 torch.cuda.empty_cache()
 torch.backends.cudnn.benchmark = True
@@ -66,8 +72,8 @@ class VoiceNavigationSystem:
         self.mqtt_port = 1883
         self.mqtt_control_topic = 'robot_control'
         self.mqtt_status_topic = 'base_status'
-        self.qwen_model_path = '/home/y/LLM/Qwen2-VL-2B-Instruct'
-        self.sensevoice_model_path = '/home/y/LLM/SenseVoiceSmall'
+        self.qwen_model_path = os.path.join(_MODELS_DIR, 'Qwen2-VL-2B-Instruct')
+        self.sensevoice_model_path = os.path.join(_MODELS_DIR, 'SenseVoiceSmall')
         print(f"任务点文件路径: {TASK_POINTS_FILE}")
 
         self.device = None
@@ -1315,8 +1321,8 @@ class VoiceModuleNode(Node):
 
         self.declare_parameter('mqtt_broker', '10.42.0.1')
         self.declare_parameter('mqtt_port', 1883)
-        self.declare_parameter('qwen_model_path', '/home/y/LLM/Qwen2-VL-2B-Instruct')
-        self.declare_parameter('sensevoice_model_path', '/home/y/LLM/SenseVoiceSmall')
+        self.declare_parameter('qwen_model_path', os.path.join(_MODELS_DIR, 'Qwen2-VL-2B-Instruct'))
+        self.declare_parameter('sensevoice_model_path', os.path.join(_MODELS_DIR, 'SenseVoiceSmall'))
 
         self.goal_pub = self.create_publisher(PoseStamped, '/voice_nav_goal', 10)
 

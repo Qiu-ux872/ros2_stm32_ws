@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/voice_module/voice_module.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice_module/voice_module.egg-info/dependency_links.txt
+writing entry points to ../../build/voice_module/voice_module.egg-info/entry_points.txt
+writing requirements to ../../build/voice_module/voice_module.egg-info/requires.txt
+writing top-level names to ../../build/voice_module/voice_module.egg-info/top_level.txt
+reading manifest file '../../build/voice_module/voice_module.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice_module/voice_module.egg-info/SOURCES.txt'
+running build
+running build_py
+copying voice_module/voice_module_node.py -> /home/qiu/Desktop/ros2_stm32_ws/build/voice_module/build/lib/voice_module
+running install
+running install_lib
+copying /home/qiu/Desktop/ros2_stm32_ws/build/voice_module/build/lib/voice_module/voice_module_node.py -> /home/qiu/Desktop/ros2_stm32_ws/install/voice_module/lib/python3.10/site-packages/voice_module
+byte-compiling /home/qiu/Desktop/ros2_stm32_ws/install/voice_module/lib/python3.10/site-packages/voice_module/voice_module_node.py to voice_module_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/qiu/Desktop/ros2_stm32_ws/install/voice_module/lib/python3.10/site-packages/voice_module-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/voice_module/voice_module.egg-info to /home/qiu/Desktop/ros2_stm32_ws/install/voice_module/lib/python3.10/site-packages/voice_module-0.0.0-py3.10.egg-info
+running install_scripts
+Installing voice_module script to /home/qiu/Desktop/ros2_stm32_ws/install/voice_module/lib/voice_module
+writing list of installed files to '/home/qiu/Desktop/ros2_stm32_ws/build/voice_module/install.log'
